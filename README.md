@@ -19,12 +19,11 @@ This application is built with React Native to display live cryptocurrency data.
 
 ## Installation Guide
 
-### Step 1: Clone the Repository
-  ```bash
-  git clone https://github.com/AshitomW/CryptoPrice.git
-  cd cryptoprice
-  ```
-
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/AshitomW/CryptoPrice.git
+   cd cryptoprice
+   
 2. Install dependencies:
     ```bash
     npm install
