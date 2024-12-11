@@ -15,8 +15,8 @@ import { faCoins } from "@fortawesome/free-solid-svg-icons/faCoins";
 import CustomText from "../components/customText";
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
-
-const socket = io("http://127.0.0.1:3000");
+import {SERVER_URL} from "../constants";
+const socket = io(SERVER_URL);
 socket.on("connect", () => {
   console.log("client connected");
 });
