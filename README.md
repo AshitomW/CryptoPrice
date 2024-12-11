@@ -43,7 +43,7 @@ This application is built with React Native to display live cryptocurrency data.
     npm start
     ```
 
-### Step 3: Set Up the Frontend
+###  Set Up the Frontend
 1. Navigate to the frontend directory:
     ```bash
     cd crypt
